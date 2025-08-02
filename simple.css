@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(78, 77, 75);
+}
+
+.Tops{
+    height: 80px;
+    padding: 0;
+    width: 100%;
+    color: white;
+    background-color: green;
+    margin:0%;
+    border: 5px solid black;
+}
+.Tops p{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.inps{
+    background-color: rgb(248, 169, 22);
+    display: block;
+    width: 600px;
+    height: 430px;
+    border: 3px solid black ;
+    margin-top: 30px;
+    position: relative;
+    left: 35%;
+}
+
+
+.p1 p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin:0%;
+    padding: 0%;
+    margin-left: 20px;
+}
+
+.p1 input{
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.p1 button{
+    margin-top: 5px;
+    height: 28px;
+    margin-left: 10px;
+    width: 80px;
+    background-color: rgb(23, 6, 179);
+    color: aliceblue;
+}
+
+.p1 input button{
+    display: inline-block;
+}
+.p1 button:hover{
+    transform: scale(1.1);
+}
+
+.p2{
+    margin: 0;
+    margin-top: 40px;
+}
+.p2 p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    margin: 0%;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.p2 input{
+    display: block;
+    width: 540px;
+    height: 60px;
+    margin: 0%;
+    padding-left: 10px;
+    margin-left: 20px;
+}
